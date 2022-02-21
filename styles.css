@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#content {
+  width: 65vw;
+  margin: 10px auto;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #111111;
+  line-height: 19px;
+  margin-left: 40px;
+}
+
+section {
+  background: #FBDFDB;
+  border-radius: 30px;
+  width: 100%;
+  height: 366px;
+  align-items: end;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+section .esquerda {
+  margin: auto 80px;
+}
+
+section .direita {
+  bottom: 0;
+}
+
+section img {
+  width: 216px;
+  height: 300px;
+}
+
+section h2 {
+  font-size: 32px;
+  color: #111111;
+  line-height: 38px;
+}
+
+section span {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 28px;
+}
+
+h3 {
+  margin-top: 40px;
+  color: #111111;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+#receitas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.4%;
+}
+
+.card-receita {
+  margin-top: 8%;
+  cursor: pointer;
+}
+
+.card-receita img {
+  width: 100%;
+  height: 140px;
+  border-radius: 15px;
+}
+
+.title-receita {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 21px;
+  border-top: 20px;
+  color: #111111;
+}
+
+.author-receita {
+  color: #777777;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+footer {
+  margin-top: 40px;
+  height: 62px;
+  background: #EEEEEE;
+  color: #999999;
+  display: grid;
+  align-content: center;
+}
+
+footer p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.page-title {
+  margin-top: 40px;
+  margin-bottom: 24px;
+  color: #111111;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.about-text {
+  color: #444444;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.about-text + .about-text {
+  margin-top: 16px;
+}
+
+.text-subhead2 {
+  margin-bottom: 8px;
+}
+
+.about-text + h2 {
+  margin-top: 24px;
+}
