@@ -143,3 +143,68 @@ footer p {
 .about-text + h2 {
   margin-top: 24px;
 }
+
+/* === MODAL OVERLAY === */
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal {
+  background-color: white;
+  width: 50%;
+  height: 70%;
+  margin: 14vh auto;
+  position: relative;
+  justify-items: center;
+  border-radius: 16px;
+}
+
+.modal-content {
+  display: grid;
+  justify-items: center;
+}
+
+.modal img {
+  width: 90%;
+  height: 200px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.modal h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #111111;
+  text-align: center;
+}
+
+.modal span {
+  margin-top: 8px;
+  font-size: 18px;
+  color: #777777;
+  text-align: center;
+  font-weight: 400;
+}
+
+.modal .close-modal {
+  color: black;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    bottom: 12px;
+}
+
+/* === MODAL OVERLAY.ACTIVE === */
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
