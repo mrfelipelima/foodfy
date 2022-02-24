@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Foodfy" />
+  <img src="./.github/logo.png" alt="Foodfy" />
 
   &#xa0;
 
