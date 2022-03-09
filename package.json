@@ -6,7 +6,7 @@
   "author": "Felipe Lima <mrfelipelima@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "server.js",
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "dependencies": {
