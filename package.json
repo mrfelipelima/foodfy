@@ -1,0 +1,18 @@
+{
+  "name": "foodfy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mrfelipelima/foodfy.git",
+  "author": "Felipe Lima <mrfelipelima@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
